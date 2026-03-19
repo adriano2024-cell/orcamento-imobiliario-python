@@ -1,76 +1,55 @@
-# 🧾 Sistema de Orçamento Imobiliário em Python
+# 🏢 Sistema de Orçamento Imobiliário em Python
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python">
-  <img src="https://img.shields.io/badge/Status-Concluído-success">
-  <img src="https://img.shields.io/badge/Projeto-Acadêmico-orange">
-  <img src="https://img.shields.io/badge/POO-Aplicado-blueviolet">
-</p>
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Concluído-success)
+![Projeto Acadêmico](https://img.shields.io/badge/Projeto-Acadêmico-orange)
 
 ---
 
-## 📌 Sobre o Projeto
+## 📌 Descrição
 
-Este projeto foi desenvolvido como parte da disciplina **Algorithmic Thinking & Introduction to Object-Oriented Programming (UniFECAF)**.
+Este projeto consiste em um sistema desenvolvido em **Python** para cálculo de aluguel e geração de **orçamentos imobiliários em CSV**, utilizando conceitos de:
 
-O sistema simula o cálculo de aluguel de imóveis com base em regras de negócio e gera um **orçamento completo em formato CSV**, aplicando conceitos de **programação orientada a objetos (POO)**.
+- Programação Orientada a Objetos (POO)
+- Estruturas de decisão e repetição
+- Manipulação de arquivos CSV
+- Regras de negócio aplicadas ao mercado imobiliário
+
+O sistema simula o processo real de cálculo de orçamento de locação de imóveis.
 
 ---
 
 ## 🎯 Objetivo
 
-Aplicar lógica de programação e POO na construção de um sistema real, envolvendo:
+Automatizar o cálculo de:
 
-- Tomada de decisão
-- Estrutura condicional
-- Modelagem de classes
-- Geração de dados estruturados (CSV)
+- Valor do aluguel
+- Taxas administrativas
+- Parcelamento do contrato
+- Geração de planilha final em CSV
 
 ---
 
 ## ⚙️ Funcionalidades
 
-✔ Escolha do tipo de imóvel  
-✔ Cálculo automático do aluguel  
-✔ Aplicação de regras de negócio  
-✔ Parcelamento da taxa de contrato  
-✔ Geração de planilha CSV com 12 meses  
+✔ Cadastro de dados do imóvel  
+✔ Cálculo automático de taxas  
+✔ Geração de parcelas  
+✔ Exportação para arquivo CSV  
+✔ Validação de entradas do usuário  
 
 ---
 
-## 🧠 Regras de Negócio
+## 🧠 Conceitos aplicados
 
-### 🏢 Apartamento
-- Base: R$ 700  
-- + R$ 200 → 2 quartos  
-- + R$ 300 → vaga  
-- -5% → sem crianças  
-
-### 🏠 Casa
-- Base: R$ 900  
-- + R$ 250 → 2 quartos  
-- + R$ 300 → vaga  
-
-### 🏙️ Estúdio
-- Base: R$ 1.200  
-- + R$ 250 → até 2 vagas  
-- + R$ 60 por vaga extra  
-
-### 📑 Taxa de Contrato
-- Valor fixo: R$ 2.000  
-- Parcelamento: até 5x  
+- Classes e Objetos
+- Métodos abstratos (ABC)
+- Encapsulamento
+- Estruturas condicionais (`if/else`)
+- Laços de repetição (`while`)
+- Funções auxiliares
+- Manipulação de arquivos (`csv`)
 
 ---
 
-## 🧩 Tecnologias Utilizadas
-
-- Python 3
-- Programação Orientada a Objetos
-- Manipulação de arquivos CSV
-
----
-
-## ▶️ Como Executar
-
-```bash
-python main.py
+## 🗂 Estrutura do Projeto

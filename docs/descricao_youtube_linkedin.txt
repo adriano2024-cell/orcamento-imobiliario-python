@@ -1,7 +1,0 @@
-DESCRIÇÃO SUGERIDA
-
-Neste vídeo apresento o projeto Orçamento Imobiliário, desenvolvido em Python para a disciplina da UniFECAF.
-A aplicação calcula aluguel mensal, taxa de contrato e gera um arquivo CSV com as 12 parcelas do orçamento.
-Foram utilizados conceitos de lógica de programação, estruturas condicionais, validação de entrada, orientação a objetos e manipulação de arquivos.
-
-#Python #Programacao #UniFECAF #POO #LógicaDeProgramação
